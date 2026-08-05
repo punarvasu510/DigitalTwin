@@ -535,9 +535,9 @@ examples = [
 demo = gr.ChatInterface(
     fn=respond_ai, 
     title="Alekhya Vellanki - AI Digital Twin", description="This is the AI digital twin of Alekhya Vellanki. You can ask questions about her education, skills, and professional experience. The AI will respond based on the provided knowledge base documents.", 
-    examples=random.sample(examples, 3),
+    examples=random.sample(examples, 4),
     textbox=gr.Textbox(
-        placeholder="Ask me anything about Alekhya...",
+        placeholder="Ask me anything about my profile!",
         container=False,
         scale=7
     ),
