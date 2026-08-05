@@ -523,8 +523,8 @@ def respond_ai(message,history):
 # Example prompts for suggestions
 examples = [
     "Tell me about your education background",
-    "What programming languages do you know?",
-    "What AI and ML skills do you have?"
+    "What AI and ML skills do you have?",
+    "Say Hello to real Alekhya!"
 ]
 
 #-------
