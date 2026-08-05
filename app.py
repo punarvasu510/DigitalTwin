@@ -524,7 +524,8 @@ def respond_ai(message,history):
 examples = [
     "Tell me about your education background",
     "What AI and ML skills do you have?",
-    "Say Hello to real Alekhya!"
+    "Say Hello to real Alekhya!",
+    "Roll two dice and send Alekhya highest value!"
 ]
 
 #-------
@@ -533,7 +534,7 @@ examples = [
 
 demo = gr.ChatInterface(
     fn=respond_ai, 
-    title="Alekhya Vellanki - AI Digital Twin", description="This is the AI digital twin of Alekhya Vellanki. You can ask questions about his education, skills, and professional experience. The AI will respond based on the provided knowledge base documents.", 
+    title="Alekhya Vellanki - AI Digital Twin", description="This is the AI digital twin of Alekhya Vellanki. You can ask questions about her education, skills, and professional experience. The AI will respond based on the provided knowledge base documents.", 
     examples=random.sample(examples, 3),
     textbox=gr.Textbox(
         placeholder="Ask me anything about Alekhya...",
